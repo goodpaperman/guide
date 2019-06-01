@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyApp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/MyApp.res" /d "_DEBUG" /d "_AFXDLL" "E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp.4\MyApp.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP137.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyApp.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /P /GZ /c 
+"E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp.4\ChildFrm.cpp"
+"E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp.4\MainFrm.cpp"
+"E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp.4\MyA.cpp"
+"E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp.4\MyApp.cpp"
+"E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp.4\MyAppDoc.cpp"
+"E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp.4\MyAppView.cpp"
+"E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp.4\MyB.cpp"
+"E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp.4\MyC.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP137.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP138.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyApp.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /P /GZ /c 
+"E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp.4\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP138.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP139.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyApp.pdb" /debug /machine:I386 /out:"Debug/MyApp.exe" /pdbtype:sept 
+".\Debug\ChildFrm.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MyA.obj"
+".\Debug\MyApp.obj"
+".\Debug\MyAppDoc.obj"
+".\Debug\MyAppView.obj"
+".\Debug\MyB.obj"
+".\Debug\MyC.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MyApp.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP139.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+MainFrm.cpp
+MyA.cpp
+MyApp.cpp
+MyAppDoc.cpp
+MyAppView.cpp
+MyB.cpp
+MyC.cpp
+Linking...
+LINK : fatal error LNK1104: cannot open file ".\Debug\ChildFrm.obj"
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+MyApp.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

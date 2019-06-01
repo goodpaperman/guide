@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyApp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP2F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyApp.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /P /GZ /c 
+"E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp\MyApp.cpp"
+"E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp\MainFrm.cpp"
+"E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp\ChildFrm.cpp"
+"E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp\MyAppDoc.cpp"
+"E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp\MyAppView.cpp"
+"E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp\MyA.cpp"
+"E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp\MyB.cpp"
+"E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp\MyC.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP2F.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP30.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyApp.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /P /GZ /c 
+"E:\codes\mfc\06.wuhoubing.deep guide to vc\chapter.23\MyApp\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP30.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP31.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyApp.pdb" /debug /machine:I386 /out:"Debug/MyApp.exe" /pdbtype:sept 
+".\Debug\MyApp.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\ChildFrm.obj"
+".\Debug\MyAppDoc.obj"
+".\Debug\MyAppView.obj"
+".\Debug\MyApp.res"
+".\Debug\MyA.obj"
+".\Debug\MyB.obj"
+".\Debug\MyC.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.BFC\LOCALS~1\Temp\RSP31.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+MyApp.cpp
+MainFrm.cpp
+ChildFrm.cpp
+MyAppDoc.cpp
+MyAppView.cpp
+MyA.cpp
+MyB.cpp
+MyC.cpp
+Linking...
+LINK : fatal error LNK1104: cannot open file ".\Debug\MyApp.obj"
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+MyApp.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
